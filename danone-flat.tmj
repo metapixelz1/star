@@ -4973,7 +4973,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.1",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -8016,7 +8016,7 @@
         {
          "columns":5,
          "firstgid":98070,
-         "image":"..\/aa\/tilesets\/street1.png",
+         "image":"tilesets\/street1.png",
          "imageheight":160,
          "imagewidth":160,
          "margin":0,
