@@ -4023,7 +4023,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":-1
+                         "value":1
                         }],
                  "rotation":0,
                  "type":"area",
@@ -4060,7 +4060,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":-1
+                         "value":1
                         }],
                  "rotation":0,
                  "type":"area",
@@ -4097,7 +4097,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":-1
+                         "value":1
                         }],
                  "rotation":0,
                  "type":"area",
@@ -4134,7 +4134,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":-1
+                         "value":1
                         }],
                  "rotation":0,
                  "type":"area",
@@ -4171,7 +4171,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":-1
+                         "value":1
                         }],
                  "rotation":0,
                  "type":"area",
@@ -4208,7 +4208,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":-1
+                         "value":1
                         }],
                  "rotation":0,
                  "type":"area",
@@ -4245,7 +4245,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":-1
+                         "value":3
                         }],
                  "rotation":0,
                  "type":"area",
@@ -4282,7 +4282,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":-1
+                         "value":2
                         }],
                  "rotation":0,
                  "type":"area",
@@ -4319,7 +4319,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":-1
+                         "value":4
                         }],
                  "rotation":0,
                  "type":"area",
@@ -4356,7 +4356,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":-1
+                         "value":1
                         }],
                  "rotation":0,
                  "type":"area",
@@ -4393,7 +4393,7 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":-1
+                         "value":1
                         }],
                  "rotation":0,
                  "type":"area",
