@@ -4464,6 +4464,33 @@
                  "width":392,
                  "x":2692,
                  "y":3372
+                }, 
+                {
+                 "height":919.517,
+                 "id":224,
+                 "name":"sound",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"int",
+                         "value":1
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"1.mp3"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":285.565,
+                 "x":1746.10638888889,
+                 "y":1745.79705555556
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -6050,7 +6077,7 @@
          "y":0
         }],
  "nextlayerid":170,
- "nextobjectid":224,
+ "nextobjectid":225,
  "orientation":"orthogonal",
  "properties":[
         {
