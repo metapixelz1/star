@@ -4959,23 +4959,6 @@
                  "y":1734.12121212121
                 }, 
                 {
-                 "height":397.69696969697,
-                 "id":225,
-                 "name":"silentZone",
-                 "properties":[
-                        {
-                         "name":"silent",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":348.242424242424,
-                 "x":2878.90909090909,
-                 "y":926.909090909091
-                }, 
-                {
                  "height":0,
                  "id":226,
                  "name":"door-0",
