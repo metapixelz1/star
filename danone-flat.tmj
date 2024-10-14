@@ -4331,7 +4331,7 @@
                 {
                  "height":140.146,
                  "id":201,
-                 "name":"jitsiMeetingRoom",
+                 "name":"MeetingRoom1",
                  "properties":[
                         {
                          "name":"focusable",
@@ -4339,9 +4339,14 @@
                          "value":true
                         }, 
                         {
+                         "name":"jitsiConfig ",
+                         "type":"string",
+                         "value":"{ \"deeplinking\": { \"disabled\": true} }"
+                        }, 
+                        {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"MeetingRoom"
+                         "value":"MeetingRoom1"
                         }, 
                         {
                          "name":"jitsiTrigger",
@@ -4351,12 +4356,12 @@
                         {
                          "name":"jitsiTriggerMessage",
                          "type":"string",
-                         "value":"Press \"SPACE\""
+                         "value":"\u0628\u0631\u0627\u06cc \u0648\u0631\u0648\u062f \"SPACE\" \u0631\u0627 \u0641\u0634\u0627\u0631 \u062f\u0647\u06cc\u062f"
                         }, 
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":1
+                         "value":-1
                         }],
                  "rotation":0,
                  "type":"area",
@@ -4464,6 +4469,45 @@
                  "width":392,
                  "x":2692,
                  "y":3372
+                }, 
+                {
+                 "height":168,
+                 "id":224,
+                 "name":"Camera-1",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"zoom_Margin",
+                         "type":"float",
+                         "value":-1
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":252,
+                 "x":1960.66666666667,
+                 "y":1822
+                }, 
+                {
+                 "height":397.69696969697,
+                 "id":225,
+                 "name":"silentZone",
+                 "properties":[
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":348.242424242424,
+                 "x":2878.90909090909,
+                 "y":926.909090909091
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -6050,7 +6094,7 @@
          "y":0
         }],
  "nextlayerid":170,
- "nextobjectid":224,
+ "nextobjectid":226,
  "orientation":"orthogonal",
  "properties":[
         {
