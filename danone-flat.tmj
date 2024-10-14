@@ -4437,10 +4437,37 @@
                  "width":32,
                  "x":1026.69919939001,
                  "y":3134.56652687762
+                }, 
+                {
+                 "height":324,
+                 "id":223,
+                 "name":"sound",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"float",
+                         "value":1
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"5.mp3"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":392,
+                 "x":2692,
+                 "y":3372
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -6023,7 +6050,7 @@
          "y":0
         }],
  "nextlayerid":170,
- "nextobjectid":223,
+ "nextobjectid":224,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -6052,7 +6079,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.1",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
