@@ -911,7 +911,7 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":178.774806856591,
+                 "height":144.774806856591,
                  "id":198,
                  "name":"jitsiMeetingRoom",
                  "properties":[
@@ -943,9 +943,9 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":200.808,
-                 "x":829.098655721873,
-                 "y":1015.74441694833
+                 "width":312.808,
+                 "x":-0.901344278126999,
+                 "y":249.74441694833
                 }, 
                 {
                  "height":140.146125060357,
@@ -980,88 +980,9 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":200.808,
-                 "x":1167.09962143892,
-                 "y":1049.54451352004
-                }, 
-                {
-                 "height":140.146,
-                 "id":200,
-                 "name":"jitsiMeetingRoom",
-                 "properties":[
-                        {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"MeetingRoom"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"jitsiTriggerMessage",
-                         "type":"string",
-                         "value":"Press \"SPACE\""
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":4
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":200.808,
-                 "x":829.098655721874,
-                 "y":745.343706904877
-                }, 
-                {
-                 "height":140.146,
-                 "id":201,
-                 "name":"MeetingRoom1",
-                 "properties":[
-                        {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"jitsiConfig ",
-                         "type":"string",
-                         "value":"{ \"deeplinking\": { \"disabled\": true} }"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"MeetingRoom1"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"jitsiTriggerMessage",
-                         "type":"string",
-                         "value":"\u0628\u0631\u0627\u06cc \u0648\u0631\u0648\u062f \"SPACE\" \u0631\u0627 \u0641\u0634\u0627\u0631 \u062f\u0647\u06cc\u062f"
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":-1
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":200.808,
-                 "x":1565.45790246258,
-                 "y":1051.95886866248
+                 "width":318.808,
+                 "x":643.09962143892,
+                 "y":251.54451352004
                 }],
          "opacity":1,
          "properties":[
@@ -1091,7 +1012,7 @@
                  "value":true
                 }],
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -1108,7 +1029,7 @@
                  "value":"admin"
                 }],
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }],
