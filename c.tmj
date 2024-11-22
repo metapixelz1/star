@@ -1855,6 +1855,19 @@
          "tilecount":256,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "columns":12,
+         "firstgid":47117,
+         "image":"tilesets\/avatar1.png",
+         "imageheight":256,
+         "imagewidth":384,
+         "margin":0,
+         "name":"avatar1",
+         "spacing":0,
+         "tilecount":96,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
