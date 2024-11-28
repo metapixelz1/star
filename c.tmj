@@ -121,7 +121,6 @@
          "offsetx":189.666666666667,
          "offsety":195,
          "opacity":1,
-         "parallaxx":1,
          "properties":[
                 {
                  "name":"collides",
@@ -2098,6 +2097,114 @@
                  "width":0,
                  "x":896,
                  "y":416
+                }, 
+                {
+                 "height":0,
+                 "id":234,
+                 "name":"rain_sound",
+                 "polygon":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":12,
+                         "y":8
+                        }, 
+                        {
+                         "x":365,
+                         "y":7.66666666666669
+                        }, 
+                        {
+                         "x":349,
+                         "y":181.5
+                        }, 
+                        {
+                         "x":135.5,
+                         "y":184.416666666667
+                        }, 
+                        {
+                         "x":127,
+                         "y":257.333333333333
+                        }, 
+                        {
+                         "x":883.333333333333,
+                         "y":258
+                        }, 
+                        {
+                         "x":883,
+                         "y":189.833333333333
+                        }, 
+                        {
+                         "x":670.666666666667,
+                         "y":187.666666666667
+                        }, 
+                        {
+                         "x":652,
+                         "y":1.33333333333334
+                        }, 
+                        {
+                         "x":1010.66666666667,
+                         "y":4
+                        }, 
+                        {
+                         "x":1006.66666666667,
+                         "y":-70.6666666666667
+                        }, 
+                        {
+                         "x":-34.6666666666667,
+                         "y":-77.3333333333333
+                        }],
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"float",
+                         "value":0.5
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"rainSound.mp3"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":0,
+                 "x":-26.6666666666667,
+                 "y":249.333333333333
+                }, 
+                {
+                 "ellipse":true,
+                 "height":107,
+                 "id":236,
+                 "name":"firePlaceSound",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"float",
+                         "value":0.5
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"fireplace.mp3"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":325,
+                 "x":318,
+                 "y":446
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2256,7 +2363,7 @@
          "y":0
         }],
  "nextlayerid":231,
- "nextobjectid":234,
+ "nextobjectid":237,
  "orientation":"orthogonal",
  "properties":[
         {
