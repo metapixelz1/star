@@ -35,11 +35,12 @@ WA.onInit().then(() => {
     });
 
     let currentZone: string;
-    WA.onEnterZone('fireplacezone', () => {
+    WA.room.onEnterZone('fireplacezone', () => {
+        console.log('   uhiuiiuh        iuh iuiuh          uihuih');
         currentZone = 'fireplacezone'
         openPopup(currentZone, currentZone + 'Popup')
     });
-    WA.onLeaveZone('fireplacezone', closePopup);
+    WA.room.onLeaveZone('fireplacezone', closePopup);
 
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
