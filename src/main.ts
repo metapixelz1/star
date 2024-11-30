@@ -2,6 +2,8 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
+import { openPopup , closePopup} from "./c";
+
 console.log('Script started successfully');
 
 // Waiting for the API to be ready
@@ -31,6 +33,14 @@ WA.onInit().then(() => {
         WA.room.showLayer("Roof/roofAuditorium");
         WA.room.showLayer("Roof/roofAuditorium2");
     });
+
+    let currentZone: string;
+    WA.onEnterZone('fireplacezone', () => {
+        currentZone = 'fireplacezone'
+        openPopup(currentZone, currentZone + 'Popup')
+    });
+    WA.onLeaveZone('fireplacezone', closePopup);
+
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
