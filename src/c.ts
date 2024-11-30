@@ -1,10 +1,9 @@
 /// <reference types="@workadventure/iframe-api-typings" />
 
-import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 
 
-let currentZone: string;
+
 let currentPopup: any;
 
 export const config = [
