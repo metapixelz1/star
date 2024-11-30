@@ -1,9 +1,5 @@
 /// <reference types="@workadventure/iframe-api-typings" />
 
-
-
-
-
 let currentPopup: any;
 
 export const config = [
@@ -14,21 +10,16 @@ export const config = [
             {
                 label: 'Yes',
                 className: 'primary',
-                callback: () => WA.room.hideLayer('others/fire'),
+                callback: () => {WA.room.hideLayer('others/fire');}
             },
             {
                 label: 'No',
                 className: 'primary',
-                callback: () => WA.room.showLayer('others/fire'),
+                callback: () => {WA.room.showLayer('others/fire');}
             }
         ]
     },
 ]
-
-
-
-
-
 
 export function openPopup(zoneName: string, popupName: string) {
     const zone = config.find((item) => {
@@ -36,7 +27,8 @@ export function openPopup(zoneName: string, popupName: string) {
     });
     if (typeof zone !== 'undefined') {
         // @ts-ignore otherwise we can't use zone.cta object
-        currentPopup = WA.openPopup(popupName, zone.message, zone.cta)
+        currentPopup = WA.ui.openPopup(popupName, zone.message, zone.cta)
+
     }
 }
 
