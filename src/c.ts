@@ -8,7 +8,7 @@ let currentPopup: any;
 
 export const config = [
     {
-        zone: 'followUs',
+        zone: 'fireplacezone',
         message: 'Hey! Is this office warm?',
         cta: [
             {
@@ -17,7 +17,7 @@ export const config = [
                 callback: () => WA.room.hideLayer('others/fire'),
             },
             {
-                label: 'Twitter',
+                label: 'No',
                 className: 'primary',
                 callback: () => WA.room.showLayer('others/fire'),
             }
