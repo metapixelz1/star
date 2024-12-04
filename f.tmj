@@ -2185,10 +2185,6 @@
          "tilecount":256,
          "tileheight":32,
          "tilewidth":32
-        }, 
-        {
-         "firstgid":56281,
-         "source":"E:\/Tiles\/LimeZu_5_Classroom_and_library_32x32.tsx"
         }],
  "tilewidth":32,
  "type":"map",
