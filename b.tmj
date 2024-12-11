@@ -870,7 +870,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"officetest1#parktest"
+                 "value":"parktest#officetest1"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -1038,7 +1038,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"officetest3#parktest"
+                 "value":"parktest#officetest3"
                 }],
          "type":"tilelayer",
          "visible":true,
