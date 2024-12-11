@@ -870,7 +870,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"officetest1#parktest"
+                 "value":"officetest1#start"
                 }],
          "type":"tilelayer",
          "visible":true,
