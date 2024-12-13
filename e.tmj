@@ -1204,7 +1204,7 @@
                 {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"doorbr"
+                 "value":"doorbbr"
                 }, 
                 {
                  "name":"openTriggerMessage",
@@ -1270,7 +1270,7 @@
                 {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"doorbr"
+                 "value":"doorbbr"
                 }, 
                 {
                  "name":"openTriggerMessage",
@@ -1336,7 +1336,7 @@
                 {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"doorbr"
+                 "value":"doorbbr"
                 }, 
                 {
                  "name":"openTriggerMessage",
@@ -1402,7 +1402,7 @@
                 {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"doorbr"
+                 "value":"doorbbr"
                 }, 
                 {
                  "name":"openTriggerMessage",
