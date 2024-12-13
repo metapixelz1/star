@@ -6211,6 +6211,114 @@
                  "width":0,
                  "x":3040,
                  "y":1248
+                }, 
+                {
+                 "height":918,
+                 "id":229,
+                 "name":"lakesound",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"float",
+                         "value":0.4
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"3.mp3"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":840,
+                 "x":1242,
+                 "y":2072
+                }, 
+                {
+                 "height":2360,
+                 "id":232,
+                 "name":"birdsound1",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"float",
+                         "value":0.2
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"2.mp3"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":1976,
+                 "x":2054,
+                 "y":812
+                }, 
+                {
+                 "height":1264,
+                 "id":233,
+                 "name":"birdsound2",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"float",
+                         "value":0.2
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"2.mp3"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":1320,
+                 "x":768,
+                 "y":808
+                }, 
+                {
+                 "height":704,
+                 "id":235,
+                 "name":"birdsound3",
+                 "properties":[
+                        {
+                         "name":"audioLoop",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"audioVolume",
+                         "type":"float",
+                         "value":0.2
+                        }, 
+                        {
+                         "name":"playAudio",
+                         "type":"string",
+                         "value":"2.mp3"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":3272,
+                 "x":752,
+                 "y":3176
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -7856,7 +7964,7 @@
          "y":0
         }],
  "nextlayerid":249,
- "nextobjectid":229,
+ "nextobjectid":236,
  "orientation":"orthogonal",
  "properties":[
         {
