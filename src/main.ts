@@ -3,6 +3,7 @@
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 import { openPopup , closePopup} from "./c";
+import {day_night_cycle} from "./b";
 
 console.log('Script started successfully');
 
@@ -44,6 +45,10 @@ WA.onInit().then(() => {
         closePopup();
     });
 
+    //This function will automatically change day mode into night mode
+    //folders for the inputs: first day folder, second night folder.
+    //In each folder, the layers should be related to the state of day and night.
+    day_night_cycle("","");
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
