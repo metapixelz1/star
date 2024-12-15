@@ -133,7 +133,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"parktest#fromofficetest3"
+                 "value":"parktest#entry-from-officetest3"
                 }],
          "type":"tilelayer",
          "visible":true,
