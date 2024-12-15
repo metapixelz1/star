@@ -250,7 +250,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"parktest#start"
+                 "value":"parktest#fromofficetest1"
                 }],
          "type":"tilelayer",
          "visible":true,
