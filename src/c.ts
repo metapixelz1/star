@@ -5,17 +5,17 @@ let currentPopup: any;
 export const config = [
     {
         zone: 'fireplacezone',
-        message: 'Hey! Is this office warm?',
+        message: 'Hey! Is this office cold?',
         cta: [
             {
                 label: 'Yes',
                 className: 'primary',
-                callback: () => {WA.room.hideLayer('others/fire');}
+                callback: () => {WA.room.showLayer('others/fire');}
             },
             {
                 label: 'No',
                 className: 'primary',
-                callback: () => {WA.room.showLayer('others/fire');}
+                callback: () => {WA.room.hideLayer('others/fire');}
             }
         ]
     },
