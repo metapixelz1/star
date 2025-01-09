@@ -2564,7 +2564,7 @@
                         {
                          "name":"audioVolume",
                          "type":"float",
-                         "value":0.5
+                         "value":0.3
                         }, 
                         {
                          "name":"playAudio",
@@ -2613,7 +2613,7 @@
                         {
                          "name":"audioVolume",
                          "type":"float",
-                         "value":0.5
+                         "value":0.2
                         }, 
                         {
                          "name":"playAudio",
@@ -2640,7 +2640,7 @@
                         {
                          "name":"audioVolume",
                          "type":"float",
-                         "value":0.5
+                         "value":0.2
                         }, 
                         {
                          "name":"playAudio",
@@ -2667,7 +2667,7 @@
                         {
                          "name":"audioVolume",
                          "type":"float",
-                         "value":0.7
+                         "value":0.3
                         }, 
                         {
                          "name":"playAudio",
@@ -2694,7 +2694,7 @@
                         {
                          "name":"audioVolume",
                          "type":"float",
-                         "value":0.4
+                         "value":0.1
                         }, 
                         {
                          "name":"playAudio",
