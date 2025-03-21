@@ -6,11 +6,11 @@ import { openPopup , closePopup} from "./c";
 import {day_night_cycle} from "./b";
 
 console.log('Script started successfully');
+console.log(document.cookie);
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
 
-    console.log(document.cookie);
 
     WA.room.onEnterLayer("zoneOffice").subscribe(() => {
         WA.room.hideLayer("Roof/roofOpenOffice");
