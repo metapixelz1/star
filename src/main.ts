@@ -6,20 +6,20 @@ import { openPopup , closePopup} from "./c";
 import {day_night_cycle} from "./b";
 
 console.log('Script started successfully');
-// دریافت تمامی کوکی‌ها
-const cookies = document.cookie;
-
-// جدا کردن هر کوکی
-const cookieArray = cookies.split(';');
-
-// نمایش کوکی‌ها
-cookieArray.forEach(cookie => {
-    console.log(cookie.trim());
-});
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
-
+    
+    // دریافت تمامی کوکی‌ها
+    const cookies = document.cookie;
+    
+    // جدا کردن هر کوکی
+    const cookieArray = cookies.split(';');
+    
+    // نمایش کوکی‌ها
+    cookieArray.forEach(cookie => {
+        console.log(cookie.trim());
+    });
 
     WA.room.onEnterLayer("zoneOffice").subscribe(() => {
         WA.room.hideLayer("Roof/roofOpenOffice");
